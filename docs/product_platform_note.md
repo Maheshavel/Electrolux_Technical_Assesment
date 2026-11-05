@@ -1,7 +1,7 @@
 
 # Product and Platform Design Note:
 
-* **Disclaimer**Since I couldn't get the API credentials, The current pipline is desgined to load data from local file system but in ideal scenario, the data should be fetched from the exteranl APIs. The design notes are provided with an assumption that, the current solution is using APIs.
+* **Disclaimer** Since I couldn't get the API credentials, The current pipline is desgined to load data from local file system but in ideal scenario, the data should be fetched from the exteranl APIs. The design notes are provided with an assumption that, the current solution is using APIs.
 
 ## 1. Assumptions Challenged Before Production
 * **Upstream Data Contracts:** Eventhough our raw/bronze data is stored as Json to avoid strict schema validations, it is good to maintain sctrict contracts with the upstream data API providers to keep the schema as it is.
