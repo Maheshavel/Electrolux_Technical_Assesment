@@ -1,0 +1,9 @@
+transaction_id,account_id,transaction_date,amount,currency,transaction_type,merchant_name,merchant_category,status,country_code,error_reason,ingestion_timestamp
+TXN-0345,ACC-1007,2024-11-31T14:22:00Z,67.4,GBP,debit,McDonald's,fast_food,completed,UK,Invalid ISO 8601 timestamp: 2024-11-31T14:22:00Z; Invalid merchant_category: fast_food,2026-11-04T17:31:17.303399+00:00
+TXN-0346,ACC-1014,15-04-2024 09:30,-127.5,USD,debit,   ,groceries,Completed,US,"Invalid ISO 8601 timestamp: 15-04-2024 09:30; Amount must be > 0, got -127.5; Merchant name cannot be empty or whitespace-only; Invalid status (must be lowercase): Completed",2026-11-04T17:31:17.303399+00:00
+TXN-0347,ACC-1003,2024-02-20T17:45:00Z,0.0,EUR,Credit,Deutsche Bank,Finance,completed,EN,"Amount must be > 0, got 0.0; Invalid transaction_type (must be lowercase debit/credit): Credit; Invalid merchant_category: Finance",2026-11-04T17:31:17.303399+00:00
+TXN-0062,ACC-1009,2024-02-12T16:58:38Z,712.12,EUR,credit,BACS Credit,payroll,completed,GB,Duplicate transaction based on natural key,2026-11-04T17:31:17.303399+00:00
+TXN-0068,ACC-1001,2024-01-09T03:36:42Z,238.2,USD,debit,Leroy Merlin,home_and_garden,completed,FR,Duplicate transaction based on natural key,2026-11-04T17:31:17.303399+00:00
+TXN-0037,ACC-1018,2024-03-09T07:22:00Z,2489.89,USD,credit,Macy's,retail,completed,US,Duplicate transaction based on natural key,2026-11-04T17:31:17.303399+00:00
+TXN-0351,ACC-1002,2024-03-22T04:29:40Z,76.83,GBP,debit,eBay,e-commerce,failed,US,Duplicate transaction based on natural key,2026-11-04T17:31:17.303399+00:00
+TXN-0349,ACC-1010,2024-02-16T21:20:34Z,2034.54,EUR,credit,ASOS,e-commerce,completed,GB,Duplicate transaction based on natural key,2026-11-04T17:31:17.303399+00:00
